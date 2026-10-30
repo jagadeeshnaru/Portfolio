@@ -1,179 +1,240 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naru Jagadeesh | Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Naru Jagadeesh, B.Tech CSE student and Software Development Intern skilled in Java, Python, SQL and React."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="#top">Naru Jagadeesh</a>
+      <nav aria-label="Sections">
+        <a href="#skills">Skills</a><a href="#projects">Projects</a
+        ><a href="#experience">Experience</a><a href="#education">Education</a>
+      </nav>
+      <a class="btn btn-sm" href="#contact">Contact me</a>
+    </header>
 
-<head>
-    <title>Naru Jagadeesh | Portfolio</title>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="status">
+            <span class="dot"></span>Open to internships in Bengaluru and
+            Hyderabad
+          </p>
+          <h1>
+            <span>Hi, I'm Jagadeesh.</span>
+            <span>I build web apps and the databases behind them.</span>
+          </h1>
+          <p class="lead">
+            Third-year B.Tech CSE student and Software Development Intern. I
+            write Java, Python and SQL, build React interfaces, and enjoy
+            turning messy problems into clean, working software.
+          </p>
+          <div class="actions">
+            <a class="btn" href="#projects">See my projects</a>
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/jagadeeshnaru"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="https://in.linkedin.com/in/jagadeesh-naru-074b1b310"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <figure class="photo">
+          <img
+            src="naru.jpg"
+            alt="Portrait of Naru Jagadeesh"
+            width="360"
+            height="360"
+          />
+        </figure>
+      </section>
 
-    <!-- Required meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
-    <meta name="description" content="Portfolio of Naru Jagadeesh, B.Tech CSE student and Software Development Intern skilled in Java, Python, SQL and React">
-    <meta name="keywords" content="Naru Jagadeesh, Software Developer, Java, Python, SQL, React, Web Developer, Portfolio, CSE Student">
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <div class="container">
-
-        <header>
-            <h1><span id="typing">Naru Jagadeesh</span></h1>
-            <p>B.Tech CSE | Software Development Intern | Java &middot; Python &middot; React</p>
-        </header>
-
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills" id="skillsLink">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <!-- Profile -->
-        <section id="profile">
-            <center>
-                <img src="naru.jpg" class="profile-img" alt="Naru Jagadeesh Profile Photo">
-            </center>
-        </section>
-
-        <!-- About -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I am a motivated and detail-oriented B.Tech Computer Science student with a strong foundation in Java, Python, C, SQL and Data Structures &amp; Algorithms. I am passionate about software engineering, problem-solving and building scalable applications, and I enjoy creating responsive websites and interactive user interfaces. Currently working as a Software Development Intern and open to opportunities in Bengaluru and Hyderabad.
-            </p>
-        </section>
-
-        <!-- Skills -->
-        <section id="skills" class="hidden">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill-box">Java</div>
-                <div class="skill-box">Python</div>
-                <div class="skill-box">C Programming</div>
-                <div class="skill-box">SQL / MySQL</div>
-                <div class="skill-box">JDBC</div>
-                <div class="skill-box">Data Structures &amp; Algorithms</div>
-                <div class="skill-box">OOP</div>
-                <div class="skill-box">DBMS</div>
-                <div class="skill-box">HTML5</div>
-                <div class="skill-box">CSS3</div>
-                <div class="skill-box">JavaScript</div>
-                <div class="skill-box">React</div>
-                <div class="skill-box">Git &amp; GitHub</div>
-                <div class="skill-box">Problem Solving</div>
+      <section id="skills" class="block">
+        <h2>Skills</h2>
+        <div class="content">
+          <dl class="skills">
+            <div>
+              <dt>Languages</dt>
+              <dd><b>Java</b><b>Python</b><b>C</b><b>SQL</b></dd>
             </div>
-        </section>
-
-        <!-- Experience -->
-        <section id="experience">
-            <h2>Experience</h2>
-
-            <div class="project-card">
-                <h3>Software Development Intern</h3>
-                <p class="card-meta">MindMerge &middot; May 2026 &ndash; Present</p>
-                <ul>
-                    <li>Developed responsive web applications using HTML, CSS, JavaScript and React.</li>
-                    <li>Built reusable UI components, improving usability and maintainability.</li>
-                    <li>Collaborated with the team using Git and GitHub for version control.</li>
-                    <li>Debugged and resolved application issues to improve performance and reliability.</li>
-                    <li>Assisted with frontend integration with backend APIs.</li>
-                    <li>Participated in Agile development, code reviews and SDLC best practices.</li>
-                </ul>
+            <div>
+              <dt>Computer science</dt>
+              <dd>
+                <b>Data structures &amp; algorithms</b><b>OOP</b><b>DBMS</b
+                ><b>SDLC</b>
+              </dd>
             </div>
-        </section>
-
-        <!-- Projects -->
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <div class="project-card">
-                <h3>Student Management System</h3>
-                <p class="card-meta">Java &middot; JDBC &middot; MySQL</p>
-                <ul>
-                    <li>Java application using JDBC to connect to a MySQL database.</li>
-                    <li>Full CRUD operations to add, update, delete and search student records.</li>
-                    <li>Normalized SQL schema with OOP principles for reusable, structured code.</li>
-                </ul>
+            <div>
+              <dt>Web</dt>
+              <dd><b>HTML5</b><b>CSS3</b><b>JavaScript</b><b>React</b></dd>
             </div>
-
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p class="card-meta">HTML &middot; CSS &middot; JavaScript</p>
-                <p>Personal responsive, mobile-first portfolio website with interactive UI components and cross-browser compatibility.</p>
+            <div>
+              <dt>Data &amp; tools</dt>
+              <dd>
+                <b>MySQL</b><b>JDBC</b><b>Git</b><b>GitHub</b><b>VS Code</b>
+              </dd>
             </div>
+          </dl>
+        </div>
+      </section>
 
-            <div class="project-card">
-                <h3>Login System</h3>
-                <p>Basic authentication system with validation.</p>
-            </div>
+      <section id="projects" class="block">
+        <h2>Projects</h2>
+        <div class="content">
+          <details class="proj" open>
+            <summary>
+              <span class="t">Student Management System</span
+              ><span class="s">Java, JDBC, MySQL</span>
+            </summary>
+            <ul>
+              <li>
+                Java application that connects to a MySQL database through JDBC.
+              </li>
+              <li>
+                Add, update, delete and search student records with full CRUD
+                operations.
+              </li>
+              <li>
+                Normalized SQL schema and OOP design for reusable, structured
+                classes.
+              </li>
+            </ul>
+          </details>
+          <details class="proj">
+            <summary>
+              <span class="t">Portfolio Website</span
+              ><span class="s">HTML, CSS, JavaScript</span>
+            </summary>
+            <ul>
+              <li>
+                Responsive, mobile-first site you are looking at right now.
+              </li>
+              <li>
+                Works across browsers and adapts to light and dark system
+                themes.
+              </li>
+            </ul>
+          </details>
+          <details class="proj">
+            <summary>
+              <span class="t">Login System</span
+              ><span class="s">HTML, CSS, JavaScript</span>
+            </summary>
+            <ul>
+              <li>Basic authentication flow with form validation.</li>
+            </ul>
+          </details>
+        </div>
+      </section>
 
-        </section>
+      <section id="experience" class="block">
+        <h2>Experience</h2>
+        <div class="content">
+          <ol class="tl">
+            <li>
+              <time>May 2026 to now</time>
+              <h3>Software Development Intern, MindMerge</h3>
+              <ul>
+                <li>
+                  Built responsive web apps and reusable UI components with
+                  HTML, CSS, JavaScript and React.
+                </li>
+                <li>
+                  Connected frontend screens to backend APIs and debugged issues
+                  to improve reliability.
+                </li>
+                <li>
+                  Worked in an Agile team with Git, GitHub and code reviews.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <time>Nov 2025</time>
+              <h3>Make-A-Thon by INUNITY</h3>
+              <p>
+                Built a working prototype with a team under time pressure and
+                presented the solution.
+              </p>
+            </li>
+            <li>
+              <time>2025</time>
+              <h3>Python Basics Coding for Absolute Beginners</h3>
+              <p>Udemy certification.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
 
-        <!-- Education -->
-        <section id="education">
-            <h2>Education</h2>
+      <section id="education" class="block">
+        <h2>Education</h2>
+        <div class="content">
+          <ol class="tl">
+            <li>
+              <time>2024 to 2028</time>
+              <h3>B.Tech, Computer Science &amp; Engineering</h3>
+              <p>
+                Madanapalle Institute of Technology &amp; Science. CGPA 7.71 /
+                10.
+              </p>
+            </li>
+            <li>
+              <time>2022 to 2024</time>
+              <h3>Intermediate (MPC)</h3>
+              <p>Narayana Junior College. 89.9%.</p>
+            </li>
+            <li>
+              <time>2022</time>
+              <h3>SSC</h3>
+              <p>Narayana E.M. High School. 67.6%.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
 
-            <div class="project-card">
-                <h3>B.Tech, Computer Science &amp; Engineering</h3>
-                <p class="card-meta">Madanapalle Institute of Technology &amp; Science &middot; 2024 &ndash; 2028</p>
-                <p>CGPA: 7.71 / 10</p>
-            </div>
+      <section id="contact" class="block contact">
+        <h2>Contact</h2>
+        <div class="content">
+          <p class="big">
+            Hiring for an internship or have a project in mind? Send me a note.
+          </p>
+          <a class="mail" href="mailto:naru1962523@gmail.com"
+            >naru1962523@gmail.com</a
+          >
+          <div class="actions">
+            <button class="btn" id="copy" type="button">Copy email</button>
+            <a class="btn btn-ghost" href="tel:+919032421581"
+              >Call +91 90324 21581</a
+            >
+          </div>
+          <p id="toast" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
 
-            <div class="project-card">
-                <h3>Intermediate (MPC)</h3>
-                <p class="card-meta">Narayana Junior College &middot; 2022 &ndash; 2024</p>
-                <p>89.9%</p>
-            </div>
-
-            <div class="project-card">
-                <h3>SSC</h3>
-                <p class="card-meta">Narayana E.M. High School &middot; 2022</p>
-                <p>67.6%</p>
-            </div>
-        </section>
-
-        <!-- Achievements -->
-        <section id="achievements">
-            <h2>Hackathons &amp; Certifications</h2>
-
-            <div class="project-card">
-                <h3>Make-A-Thon by INUNITY</h3>
-                <p class="card-meta">Team Participant &middot; Nov 2025</p>
-                <p>Built a working prototype with a team under time pressure, and presented the solution.</p>
-            </div>
-
-            <div class="project-card">
-                <h3>Python Basics Coding for Absolute Beginners</h3>
-                <p class="card-meta">Udemy &middot; 2025</p>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact">
-            <h2>Contact</h2>
-
-            <p>📞 <a href="tel:9032421581">9032421581</a></p>
-            <p>📧 <a href="mailto:naru1962523@gmail.com">naru1962523@gmail.com</a></p>
-            <p>🔗 <a href="https://in.linkedin.com/in/jagadeesh-naru-074b1b310" target="_blank">LinkedIn</a></p>
-            <p>💻 <a href="https://github.com/jagadeeshnaru" target="_blank">GitHub</a></p>
-        </section>
-
-        <footer>
-            <p>© 2026 Naru Jagadeesh. All rights reserved.</p>
-        </footer>
-
-    </div>
-
+    <footer>
+      <p>&copy; <span id="yr">2026</span> Naru Jagadeesh</p>
+    </footer>
     <script src="script.js"></script>
-
-</body>
-
+  </body>
 </html>
